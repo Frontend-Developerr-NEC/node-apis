@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend Connnectivity",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Frontend-Developerr-NEC"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2",
+    "nodemon": "^3.1.11"
+  }
+}
